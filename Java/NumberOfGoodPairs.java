@@ -1,3 +1,10 @@
+// Nested for loop to check each value and comapre for equality to next values in the array if it matches increment good pair
+// in other words if the element in nums[i] equal to the element in nums[j] increment goodPair (count)
+
+
+
+
+
 class Solution {
     public int numIdenticalPairs(int[] nums) {
         int goodPairs = 0;
