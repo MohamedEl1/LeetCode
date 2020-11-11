@@ -19,7 +19,7 @@ class Solution {
         for(int i = 0; i < indices.length; i++) {
             for (int j = 0; j < indices.length; j++) {
 
-                // check if value i equal to a value in the indices if it does then grab its                        index number and use it for shuffling the string from beginning
+                // check if value i equal to a value in the indices if it does then grab its index number and use it for shuffling the string from beginning
                 if (i==indices[j]) {
                     suffledString += s.charAt(j);
                 }
